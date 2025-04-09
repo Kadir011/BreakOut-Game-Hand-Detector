@@ -16,4 +16,5 @@ venv/
 # Ignorar archivos y carpetas de vscode
 .vscode/
 
-
+# Ignorar "image.png"
+image.png 
