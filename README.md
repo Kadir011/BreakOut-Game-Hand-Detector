@@ -101,23 +101,7 @@ python main.py
 
 The project follows **Clean Architecture** to separate concerns into layers: **Domain**, **Application**, and **Infrastructure**.
 
-game/
-├── domain/
-│   ├── entities.py         # Defines game entities (Paddle, Ball, Block)
-│   ├── game_logic.py       # Core game logic (collisions, scoring, lives, states)
-├── application/
-│   ├── game_service.py     # Coordinates interactions between domain and infrastructure
-├── infrastructure/
-│   ├── hand_detector.py    # Handles hand tracking with MediaPipe
-│   ├── renderer.py         # Manages rendering with Pygame
-├── img/
-│   ├── paddle.png          # Paddle image
-│   ├── ball.png            # Ball image
-│   ├── brick.png           # Block image
-├── main.py                 # Entry point of the application (Execute)
-├── requi.txt               # Project dependencies
-├── .gitignore              # Git ignore file
-└── README.md               # Project documentation
+![alt text](image.png)
 
 **Architecture Overview**
 
